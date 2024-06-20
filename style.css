@@ -30,6 +30,7 @@ nav{
     flex-direction: row;
     justify-content:space-between;
     background-color: #374375;
+    position: sticky;
 }
 
 .nav-items{
@@ -40,7 +41,18 @@ nav{
     align-items: center;
     margin: 0 1%;
 }
-
+/* 
+.underline{
+    background-color: white;
+    width: 160px;
+    height: 5px;
+    position: absolute;
+    border-radius: 20px;
+    top: 61%;
+    right: 26.7%;
+    opacity: 0;
+}
+ */
 #home-link{
     color: white;
     text-decoration: none;
@@ -62,7 +74,7 @@ nav{
 }
 
 .img-container{
-    background-image: url(background.png);
+    background-image: url(/Images/background.png);
     height: 550px;
     border-radius: 44px;
     width: 1000px;
